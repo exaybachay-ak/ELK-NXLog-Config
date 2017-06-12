@@ -2,7 +2,7 @@
 Files required on Server and Clients to install ELK Stack for NXLog Windows Event collection
 
 
-##Instructions for configuring WEF and nxlog/ELK:
+## Instructions for configuring WEF and nxlog/ELK:
 
 
 **1. Configure WEF server and clients**
@@ -17,7 +17,9 @@ https://docs.microsoft.com/en-us/windows/threat-protection/use-windows-event-for
 
 **2. Configure an ELK system to receive events**
 -use the following tutorial exactly 
+
 --make sure you use Ubuntu 14.04 and follow instructions provided
+
 -https://www.devopslibrary.com/lessons/elk-stack-for-logging-tutorial
 
     **2a. Reconfigure ELK system for specific events from WEF system**
@@ -26,5 +28,7 @@ https://docs.microsoft.com/en-us/windows/threat-protection/use-windows-event-for
 
 
 **3. Configure WEF collector system to send ForwardedEvents to ELK system**
+
 -use the nxlog.conf file in this repo
+
 --MAKE SURE TO SWAP THE SERVER IP WITH YOUR ELK SERVER IP ADDRESS
