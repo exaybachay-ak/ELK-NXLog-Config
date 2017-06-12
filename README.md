@@ -7,8 +7,11 @@ Files required on Server and Clients to install ELK Stack for NXLog Windows Even
 
 **1. Configure WEF server and clients**
 -there are plenty of tutorials on this and it's fairly straightforward
---e.g. https://blogs.technet.microsoft.com/jepayne/2015/11/23/monitoring-what-matters-windows-event-forwarding-for-everyone-even-if-you-already-have-a-siem/
---https://docs.microsoft.com/en-us/windows/threat-protection/use-windows-event-forwarding-to-assist-in-instrusion-detection
+
+e.g. https://blogs.technet.microsoft.com/jepayne/2015/11/23/monitoring-what-matters-windows-event-forwarding-for-everyone-even-if-you-already-have-a-siem/
+
+https://docs.microsoft.com/en-us/windows/threat-protection/use-windows-event-forwarding-to-assist-in-instrusion-detection
+
 -you will be done once your systems are forwarding specified logs to a collector
 
 
