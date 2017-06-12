@@ -27,6 +27,8 @@ https://docs.microsoft.com/en-us/windows/threat-protection/use-windows-event-for
     **2a. Reconfigure ELK system for specific events from WEF system**
     -use elasticsearch.yml, kibana.yml, and logstash.conf files in this repo
     --MAKE SURE TO SWAP THE SERVER IP WITH YOUR ELK SERVER IP ADDRESS
+    -tweaked the configuration files according to this site:
+    --https://nxlog.co/docs/elasticsearch-kibana/using-nxlog-with-elasticsearch-and-kibana.html
 
 
 **3. Configure WEF collector system to send ForwardedEvents to ELK system**
