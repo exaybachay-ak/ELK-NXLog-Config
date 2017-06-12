@@ -1,4 +1,5 @@
 # ELK-NXLog-Config
+
 Files required on Server and Clients to install ELK Stack for NXLog Windows Event collection
 
 
@@ -6,6 +7,7 @@ Files required on Server and Clients to install ELK Stack for NXLog Windows Even
 
 
 **1. Configure WEF server and clients**
+
 -there are plenty of tutorials on this and it's fairly straightforward
 
 e.g. https://blogs.technet.microsoft.com/jepayne/2015/11/23/monitoring-what-matters-windows-event-forwarding-for-everyone-even-if-you-already-have-a-siem/
