@@ -1,0 +1,28 @@
+input {
+  stdin {}
+  file {
+    type => syslog
+    path => "/var//log/*"
+    start_position => beginning
+  }
+  tcp {
+    codec => json_lines { charset => CP1252 }
+    port => "3515"
+    tags => [ "tcpjson" ]
+  }
+}
+
+filter {
+  date {
+    locale => "en"
+    timezone => "Etc/GMT"
+    match => [ "EventTime", "YYYY-MM-dd HH:mm:ss" ]
+  }
+}
+
+output {
+  elasticsearch {
+    host => localhost
+  }
+  stdout { codec => rubydebug }
+}
